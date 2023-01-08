@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #F7F7F7;
+}
+.circle{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 27px;
+}
+.wrapper-header{
+    background-color:#F7F7F7;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 73px;
+    text-align: left;
+}
+.title  {
+    display: inline-block;
+    margin-left: 1600px;
+    
+}   
+.list li {
+    display: inline-block;
+    padding: 50px;  
+}
+
+.vision::after{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 3px;
+    height: 20px;
+    background-color: black;
+    margin-left: 50px
+}
+.project::after{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 3px;
+    height: 20px;
+    background-color: black;
+    margin-left: 50px
+}
+.equipe1::after{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 3px;
+    height: 20px;
+    background-color: black;
+    margin-left: 50px
+    
+}
+a{
+    color: black;
+}
+
+.building1{
+ width: 100%;
+}
+.bruxelles{
+    height: 150px;
+    margin-top: 75px;
+    margin-left: 190px;
+}
+.thema{
+    display: inline-block;
+    margin-left: 130px;
+    padding: 30px;
+    
+}
+.gros{
+    display: inline-block;
+}
+.outtls{
+    display:inline-block;
+    margin-left: 130px;
+    padding:45px ;
+}
+.app{
+    display: inline-block;
+}
+.left-side{
+    display: inline-block;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 190px;
+}
+
+.right-side{
+    display: inline-block;
+    padding: 300px;
+    height: 500px;
+    margin-left: 700px;
+    background-color: white;
+    
+}
+.button1{
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+}
+.button2{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+}
+
+.ph2{
+    width: 700px;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 80px;
+    
+}
+.ph1{
+    width: 700px;
+    height: 100px;
+    text-align: left;
+    font-size: 40px;
+}
+.lequipe{
+    margin-left: 100px;
+
+}
+.facebook{
+    display: inline-block;
+    padding: 20px;
+    margin-top: 200px;
+}
+.linkdin{
+    display: inline-block;
+    padding: 20px;
+}
+.instagram{
+    display: inline-block;
+    padding: 20px;
+}
+
+.deshommes{
+    display: inline-block;
+    padding: 50px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+.year{
+    display: inline-block;
+    padding: 50px;
+    font-size: 20px;
+}
+.website{
+    display: inline-block;
+    padding: 50px;
+    font-size: 20px;
+}
+.info{
+    margin-top: 50px;
+    height: 200px;
+}
+.redbuilding img {
+    width: 75%;
+    
+}
+.redbuilding {
+    text-align: center;
+}
+.ph3{
+    margin-top: 40px;
+    margin-left: 400px;
+    font-size: 45
+    
+}
+.bruxelles1{
+    width: 15%;
+    height: 400px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 550px;
+    margin-top: 100px;
+    box-shadow: 3px 3px 10px
+
+}
+.bruxelles1 img{
+    width: 100%;
+    height: 250px;
+}
+.title1{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.ph4{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.bruxelles2{
+    width: 15%;
+    height: 400px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 100px;
+    box-shadow: 3px 3px 10px
+    
+}
+
+.bruxelles2 img{
+    width: 100%;
+    height: 250px;
+}
+.title2{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.ph5{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.bruxelles3{
+    width: 15%;
+    height: 400px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 100px;
+    box-shadow: 3px 3px 10px
+    
+}
+.bruxelles3 img{
+    width: 100%;
+    height: 250px;
+}
+
+.title3{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.ph6{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.nosprojects{
+    background-color: orange;
+    margin-top: 100px;
+    margin-left: 1250px;
+    width: 150px;
+    height: 30px;
+}
+.nosprojects ::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 3px;
+    height: 20px;
+    background-color: black;
+    margin-right: 10px;
+    box-shadow: 3px 3px 10px;
+}
+
+footer{
+    margin-top: 100px;
+    
+
+}
+
+
+table{
+    background-color: rgb(202, 198, 198);
+    width: 50%;
+    height: 300px;
+    font-size: 20px;
+    text-align: center;
+    
+    
+    
+
+}
+.companyinfo{
+    display: inline-block;
+    
+}
+.email{
+    width: 25%;
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+.email h5{
+    text-align: center;
+   
+}
+.email p {
+    text-align: center;
+    width: 400px;
+    margin-left: 150px;
+    padding: 30px;
+    
+}
+.email form{
+    text-align: center;
+}
+.footer{
+    position: relative;
+}
+
+  .dateinfo{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(202, 198, 198);
+  }
+    .box1{
+        display: inline-block;
+       margin-top: 50px;
+    }
+
+.box2{
+    display: inline-block;
+    margin-left: 1400px
+}
